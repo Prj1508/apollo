@@ -38,6 +38,11 @@ class ScenarioManager {
   void Run();
 
   /**
+   * @brief Assign right_of_way for current frame
+   */
+  void AssignRightOfWay();
+
+  /**
    * @brief Get scenario analysis result
    */
   const Scenario& scenario() const;
